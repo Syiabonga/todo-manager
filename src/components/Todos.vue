@@ -35,8 +35,9 @@ export default {
         const upTodo = {
           id: todo.id,
           title: todo.title,
-          completed : !todo.completed
-        }
+          completed: !todo.completed
+        };
+        
         this.updateTodo(upTodo);
       }
     },

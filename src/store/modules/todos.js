@@ -41,7 +41,6 @@ const actions = {
         const response = await axios.put(
             `https://jsonplaceholder.typicode.com/todos/${updTodo.id}`,
             updTodo);
-
         commit('updateTodo', response.data);
     }
 };
